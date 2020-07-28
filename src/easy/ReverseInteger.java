@@ -24,13 +24,12 @@ package easy;
 public class ReverseInteger {
     public static int reverse(int x) {
         boolean negative = false;
+        int result = 0;
 
         if (x < 0) {
             negative = true;
             x = -x;
         }
-
-        int result = 0;
 
         while (x > 0) {
             int modulo = x % 10;
