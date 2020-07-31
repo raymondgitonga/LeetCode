@@ -37,7 +37,6 @@ public class ReverseInteger {
             if (result > Integer.MAX_VALUE / 10 || (result == Integer.MAX_VALUE / 10 && modulo > 7)) {
                 return 0;
             }
-            System.out.println(x);
 
             result = result * 10 + modulo;
 
